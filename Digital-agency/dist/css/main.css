@@ -538,4 +538,10 @@ input[type='submit'] {
   cursor: pointer;
   font-family: "Arial", "Helvetica Neue", "Helvetica", sans-serif; }
 
+.title {
+  color: red; }
+
+.icon {
+  fill: #000; }
+
 /*# sourceMappingURL=main.css.map */
