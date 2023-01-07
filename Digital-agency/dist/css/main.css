@@ -383,6 +383,18 @@ th {
   font-style: normal;
   font-weight: 700; }
 
+@font-face {
+  font-family: "Mont";
+  src: url("../../fonts/Mont-Bold.ttf");
+  font-style: normal;
+  font-weight: 800; }
+
+@font-face {
+  font-family: "Mont";
+  src: url("../../fonts/Mont-SemiBold.ttf");
+  font-style: normal;
+  font-weight: 600; }
+
 .clearfix:after {
   content: '';
   display: block;
@@ -537,9 +549,6 @@ input[type='submit'] {
   -webkit-border-radius: 0;
   cursor: pointer;
   font-family: "Arial", "Helvetica Neue", "Helvetica", sans-serif; }
-
-.title {
-  color: red; }
 
 .icon {
   fill: #000; }
