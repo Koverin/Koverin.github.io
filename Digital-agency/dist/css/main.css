@@ -630,4 +630,7 @@ input[type='submit'] {
 .icon {
   fill: #000; }
 
+.list {
+  list-style: none; }
+
 /*# sourceMappingURL=main.css.map */
