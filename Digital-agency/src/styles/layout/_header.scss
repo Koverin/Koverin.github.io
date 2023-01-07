@@ -1,0 +1,46 @@
+.header{
+    padding-top: 48px;
+    
+    &__container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__menu{
+        display: flex;
+    }
+
+    &__list{
+        display: flex;
+        border-right: 1px solid black;
+    }
+    &__link{
+        padding: 10px 30px;
+        height: 100%;
+
+        font-family: 'Mont';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 157%;
+        color: #3C467A;
+    }
+
+    &__select{
+        display: flex;
+        align-items: center;
+        font-family: 'Mont';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 157%;
+        color: #3C467A;
+        padding-left: 30px;
+        border: none;
+    }
+
+    &__logo{
+        fill: black;
+    }
+}
