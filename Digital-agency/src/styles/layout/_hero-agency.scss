@@ -1,0 +1,23 @@
+
+.hero-agency{
+    &__container {
+        padding-top: 60px;
+        padding-left: 110px;
+    }
+    
+    &__title {
+        font-family: 'Mont';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 115px;
+        line-height: 120%;
+        color: #3C467A;
+    }
+    
+    &__image {
+        margin-top: 130px;
+        width: 100%;
+    }
+}
+
+

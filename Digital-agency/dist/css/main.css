@@ -433,6 +433,7 @@ body {
   max-width: none; }
 
 .container {
+  width: 1440px;
   padding-left: 70px;
   padding-right: 70px;
   margin-left: auto;
@@ -445,7 +446,7 @@ body {
       width: 768px; } }
   @media screen and (min-width: 1200px) {
     .container {
-      width: 1200px; } }
+      width: 1440px; } }
 
 /*----reset-atart*/
 h1,
@@ -627,7 +628,7 @@ input[type='submit'] {
     font-size: 18px;
     line-height: 157%;
     color: #3C467A;
-    padding-left: 30px;
+    margin-left: 30px;
     border: none; }
   .header__logo {
     fill: black; }
@@ -637,5 +638,96 @@ input[type='submit'] {
 
 .list {
   list-style: none; }
+
+.hero-agency__container {
+  padding-top: 60px;
+  padding-left: 110px; }
+
+.hero-agency__title {
+  font-family: 'Mont';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 115px;
+  line-height: 120%;
+  color: #3C467A; }
+
+.hero-agency__image {
+  margin-top: 130px;
+  width: 100%; }
+
+.about-us__container {
+  padding-top: 90px;
+  padding-left: 110px; }
+
+.about-us__main-title {
+  font-family: 'Mont';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 57px;
+  line-height: 120%;
+  color: #3C467A; }
+
+.about-us__text {
+  width: 550px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  font-family: 'Mont';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 120%;
+  color: #000000; }
+
+.about-us__text--phylosophy, .about-us__title, .about-us__text:not(:first-child) {
+  margin-left: 80px; }
+
+.about-us__text-bold {
+  font-family: 'Mont';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 120%;
+  color: #000000;
+  padding-top: 45px; }
+
+.about-us__text-wrapper {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  padding-top: 60px; }
+
+.about-us__text--phylosophy {
+  margin-bottom: 50px;
+  width: 550px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  font-family: 'Mont';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 120%;
+  color: #000000; }
+
+.about-us__phylosophy-wrapper {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  padding-top: 150px; }
+
+.about-us__title {
+  font-family: 'Mont';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 17px;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: #000000;
+  padding-bottom: 20px; }
 
 /*# sourceMappingURL=main.css.map */
