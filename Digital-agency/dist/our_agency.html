@@ -15,7 +15,7 @@
     <div id="wrapper">
         <header class="header" id="header">
             <div class="header__container container">
-                <a href="../../dist/index.html">
+                <a href="../dist/index.html">
                     <svg class="header__logo logo" width="192" height="47">
                         <use href="../images/sprite.svg#icon-portgroup-logo-1"></use>
                     </svg>
@@ -24,7 +24,7 @@
                     <nav class="header__nav">
                         <ul class="header__list list">
                             <li class="header__item">
-                                <a class="header__link" href="../../dist/our_agency.html">About us</a>
+                                <a class="header__link" href="../dist/our_agency.html">About us</a>
                             </li>
                             <li class="header__item">
                                 <a class="header__link" href="">Blog</a>
@@ -47,10 +47,33 @@
             </div>
         </header>
         <main id="main">
-            <section class="hero">
-                <div hero__container container>
-                    <h1>OUR AGENCY</h1>
+            <div class="main-section__left-side">
+                <svg class="project__icon" width="35" height="5">
+                    <use href="./images/sprite.svg#icon-arrow-21"></use>
+                </svg>
+                <ul class="main-section__list">
+                    <li class="main-section__item">
+                        <a href="#" class="main-section__link-side">
+                            Facebook
+                        </a>
+                    </li>
+                    <li class="main-section__item">
+                        <a href="#" class="main-section__link-side">
+                            Instagram
+                        </a>
+                    </li>
+                    <li class="main-section__item">
+                        <a href="#" class="main-section__link-side">
+                            Linkedin
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <section class="hero-agency">
+                <div class="hero-agency__container container">
+                    <h1 class="hero-agency__title">OUR<br>AGENCY</h1>
                     <img src="./images/all_image/OUR AGENCY/Rectangle 120.jpg" 
+                    class="hero-agency__image"
                     alt="cognitiations with collegues"
                     width="1190"
                     >                    
@@ -58,30 +81,44 @@
             </section>
             <section class="about-us">
                 <div class="about-us__container container">
-                    <h2>About us</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                    <h2 class="about-us__main-title">About us</h2>
+                    <p class="about-us__text-bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim</p>
-                    <img src="./images/all_image/OUR AGENCY/Group 291.jpg" 
-                    alt="collegues in office"
-                    width="554">
-                    <h3>Our philisophy</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim</p>
-                    <h3>Our mission</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim</p>
+                    <div class="about-us__text-wrapper">
+                        <p class="about-us__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna
+                            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                        <p class="about-us__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna
+                            aliqua. Ut enim</p>
+                    </div>
+                    <div class="about-us__phylosophy-wrapper">
+                        <img src="./images/all_image/OUR AGENCY/Group 291.jpg"
+                         alt="collegues in office" 
+                         width="550">
+                        <div>
+                            <h3 class="about-us__title">Our philisophy</h3>
+                            <p class="about-us__text--phylosophy">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                labore et dolore magna
+                                aliqua. Ut enim</p>
+                            <h3 class="about-us__title">Our mission</h3>
+                            <p class="about-us__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                labore et dolore magna
+                                aliqua. Ut enim</p>
+                        </div>
+                    </div>
                 </div>
             </section>
             <section class="value">
                 <div class="value__container container">
                     <h3 class="value__title">Our Value</h3>
-                    <p class="value__text">Creating economic and social value by helping businesses find and connect with customers
+                    <p class="value__text">
+                        Creating economic and social value by helping businesses find and connect with customers
                     </p>
-                    <p>Our Value</p>
+                    <p>
+                        Our Value
+                    </p>
                     <ul>
                         <li>
                             <h4>Outside Expertise</h4>
@@ -110,11 +147,10 @@
                         </li>
                         <li>
                             <h4>Specialization</h4>
-                            <ul>
-                                <p>Our team members are specialized to be the best in all individual tasks required: strategy, research, writing copy, cold
+                            <p>
+                                Our team members are specialized to be the best in all individual tasks required: strategy, research, writing copy, cold
                                 outreach, qualifying, etc.
-                                </p>
-                            </ul>
+                            </p>                            
                         </li>
                         <li>
                             <h4>Lower Barriers to Entry</h4>
@@ -154,10 +190,53 @@
                 </div>
             </section>
             <section class="result">
-                <div class="result__container container">
-                    <h3>Our Result & Achievments</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
-                    <p>our resul</p>
+                <div class="result container">
+                    <h2 class="result__title">Our Result & Achievments</h2>
+                    <p class="result__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    </p>
+                    <p class="result__bigtext">Our resul</p>
+                    <ul class="result__list">
+                        <li class="result__item">
+                            <a href="#" class="result__link">
+                                <svg class="result__icon" width="47" height="50">
+                                    <use href="./images/sprite.svg#icon-result-icon1"></use>
+                                </svg>
+                            </a>
+                            <p class="result__icontext">Lorem ipsum</p>
+                        </li>
+                        <li class="result__item">
+                            <a href="#" class="result__link">
+                                <svg class="result__icon" width="47" height="50">
+                                    <use href="./images/sprite.svg#icon-result-icon2"></use>
+                                </svg>
+                            </a>
+                            <p class="result__icontext">Lorem ipsum</p>
+                        </li>
+                        <li class="result__item">
+                            <a href="#" class="result__link">
+                                <svg class="result__icon" width="47" height="50">
+                                    <use href="./images/sprite.svg#icon-result-icon3"></use>
+                                </svg>
+                            </a>
+                            <p class="result__icontext">Lorem ipsum</p>
+                        </li>
+                        <li class="result__item">
+                            <a href="#" class="result__link">
+                                <svg class="result__icon" width="47" height="50">
+                                    <use href="./images/sprite.svg#icon-result-icon4"></use>
+                                </svg>
+                            </a>
+                            <p class="result__icontext">Lorem ipsum</p>
+                        </li>
+                        <li class="result__item">
+                            <a href="#" class="result__link">
+                                <svg class="result__icon" width="47" height="50">
+                                    <use href="./images/sprite.svg#icon-result-icon5"></use>
+                                </svg>
+                            </a>
+                            <p class="result__icontext">Lorem ipsum</p>
+                        </li>
+                    </ul>
                 </div>
             </section>
             <section class="reviews">
@@ -165,7 +244,7 @@
                     <h3>Reviews</h3>
                     <ul>
                         <li>
-                            <img src="" alt="">
+                            <img src="../dist/images/all_image/OUR AGENCY/Ellipse 5.jpg" alt="boss">
                             <p>Cooper Franci</p>
                             <p>Owner “GoodDay Production”</p>
                             <h4>Lorem ipsum dolor sit amet</h4>
@@ -174,7 +253,7 @@
                             <p>07 Jan 2020</p>
                         </li>
                         <li>
-                            <img src="" alt="">
+                            <img src="../dist/images/all_image/OUR AGENCY/Ellipse 4.jpg" alt="co-boss">
                             <p>James Ekstrom Bothman</p>
                             <p>Owner “BadDay Production”</p>
                             <h4>Lorem ipsum dolor sit amet</h4>
