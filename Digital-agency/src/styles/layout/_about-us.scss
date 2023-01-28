@@ -1,0 +1,82 @@
+.about-us {
+    &__container{
+        padding-top: 90px;
+        padding-left: 110px;
+    }
+
+    &__main-title{
+        font-family: 'Mont';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 57px;
+            line-height: 120%;
+            color: #3C467A;
+    }
+
+    &__text{
+        width: 550px;
+        display: flex;
+        justify-content: flex-start;
+        font-family: 'Mont';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 120%;
+        color: #000000;
+    }
+    &__text--phylosophy,
+    &__title,
+    &__text:not(:first-child){
+        margin-left: 80px;
+    }
+
+    &__text-bold{
+        font-family: 'Mont';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 18px;
+            line-height: 120%;
+            color: #000000;
+            padding-top: 45px;
+    }
+
+    &__text-wrapper{
+        display: flex;
+        align-items:flex-start;
+        padding-top: 60px;
+        
+    }
+
+    &__text--phylosophy {
+        margin-bottom: 50px;
+        width: 550px;
+            display: flex;
+            justify-content: flex-start;
+            font-family: 'Mont';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 120%;
+            color: #000000;
+    }
+
+    &__phylosophy-wrapper{
+        display: flex;
+        align-items: flex-start;
+        padding-top: 150px;
+
+    }
+    
+    &__title{
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 17px;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: #000000;
+    padding-bottom: 20px;
+    }
+
+
+}
