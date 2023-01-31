@@ -34,6 +34,15 @@ $media-expressions: (
 
 @import 'layout/header';
 @import 'layout/common';
+@import './layout/main-section';
+@import './layout/main-left-side';
+@import './layout/about-servis';
+@import './layout/challenges';
+@import './layout/project';
+@import './layout/partners';
+@import './layout/result';
+@import './layout/contact';
+@import './layout/resent';
 @import './layout/content';
 @import 'layout/footer';
 @import 'layout/hero-agency';

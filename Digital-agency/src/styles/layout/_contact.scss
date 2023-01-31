@@ -1,0 +1,43 @@
+// Contact 
+
+.contact {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.contact__text {
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 20px;
+    width: 625px;
+
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 29px;
+
+    color: #000000;
+}
+
+.contact__btn {
+    display: flex;
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 120%;
+
+    margin-left: auto;
+    margin-right: auto;
+    padding: 16px 59px;
+
+    text-align: center;
+
+    background-color: #3C467A;
+    color: #FFFFFF;
+    border-color: transparent;
+
+    cursor: pointer;
+}

@@ -1,0 +1,57 @@
+// Challenges 
+.challeng {
+    padding-bottom: 248px;
+}
+
+.challeng__title {
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 17px;
+    line-height: 20px;
+    margin-bottom: 111px;
+
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+.challeng__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.challeng__item {
+    display: flex;
+    max-width: 513px;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.challeng__number {
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 85%;
+
+    margin: 0;
+    margin-right: 34px;
+    color: #3C467A;
+}
+
+.challeng__text {
+
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 20px;
+    max-width: 365px;
+
+    margin: 0;
+
+    color: #000000;
+}

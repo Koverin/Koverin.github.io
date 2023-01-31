@@ -1,0 +1,116 @@
+.main-section__title {
+    max-width: 890px;
+    // text-align: left;
+    margin-bottom: 20px;
+
+    font-family: "Mont";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 100px;
+    //   font-size: calc(36px + 49 * ((100vw - 320px) / 1000));
+    line-height: 120%;
+
+    color: #3c467a;
+}
+
+.main-section__suptitle {
+    font-family: "Mont";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 120%;
+
+    margin-bottom: 67px;
+
+    color: #000000;
+}
+
+
+.main-section__overlay {
+    background-image: url(../images/all_image/background-img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 140px;
+    padding-bottom: 140px;
+    padding-left: 191px;
+    width: 100%;
+}
+
+.main-section__overlayname {
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 120%;
+
+    margin-bottom: 7px;
+
+    color: #FFFFFF;
+}
+
+.main-section__overlaytext {
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 52px;
+    line-height: 120%;
+    max-width: 466px;
+    margin-bottom: 69px;
+
+    color: #FFFFFF;
+}
+
+.main-section__overlaysubtext {
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 120%;
+
+    color: #FFFFFF;
+}
+
+.main-section__box {
+    padding-bottom: 70px;
+}
+
+.main-section__subtitle {
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 120%;
+
+    text-align: center;
+
+    width: 624px;
+    padding-bottom: 35px;
+    padding-top: 75px;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+
+    color: #000000;
+}
+
+.main-section__btn {
+    display: flex;
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 120%;
+
+    margin-left: auto;
+    margin-right: auto;
+    padding: 16px 59px;
+
+    text-align: center;
+
+    background-color: #3C467A;
+    color: #FFFFFF;
+    border-color: transparent;
+
+    cursor: pointer;
+}

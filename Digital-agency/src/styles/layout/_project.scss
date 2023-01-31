@@ -1,0 +1,98 @@
+// Project
+
+.project {
+    padding-bottom: 70px;
+}
+
+.project__title {
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 17px;
+    line-height: 20px;
+    margin: 0;
+    margin-bottom: 31px;
+
+
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+.project__text {
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+
+    width: 403px;
+    margin: 0;
+    margin-bottom: 31px;
+
+    color: #000000;
+}
+
+.project__btn {
+    display: flex;
+    align-items: baseline;
+    gap: 20px;
+    padding: 16px 46px;
+
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+
+    text-align: center;
+    border: transparent;
+
+    color: #FFFFFF;
+    background-color: #3C467A;
+}
+
+.project__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+    justify-items: start;
+}
+
+.project__item {
+    position: relative;
+    grid-row: span 2;
+    margin: 0;
+}
+
+.project__text-box {
+    max-width: 400px;
+    margin: 0;
+    margin-bottom: 20px;
+    max-height: 207px;
+}
+
+.project__subtitle {
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 32px;
+
+    margin: 0;
+    margin-bottom: 8px;
+    color: #000000;
+}
+
+.project__text {
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+
+    margin: 0;
+    margin-bottom: 50px;
+    color: #000000;
+}

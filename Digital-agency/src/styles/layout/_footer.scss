@@ -1,7 +1,60 @@
-.icon {
-    fill: $black;
+.footer {
+    background-color: #3C467A;
+    padding-top: 65px;
+    padding-bottom: 44px;
 }
 
-.list {
-    list-style: none;
+.footer__box {
+    display: flex;
+    gap: 385px;
+
+    margin-bottom: 64px;
+}
+
+.footer__address {
+    display: flex;
+}
+
+.footer__location {
+    margin-right: 340px;
+}
+
+.footer__sub-title {
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 17px;
+    line-height: 22px;
+    
+    margin: 0;
+    margin-bottom: 25px;
+
+    color: #FFFFFF;
+}
+
+.footer__link {
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 22px;
+
+    color: #FFFFFF;
+}
+
+.privacy__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.privacy__title {
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 17px;
+
+    margin: 0;
+
+    color: #FFFFFF;
 }
