@@ -66,6 +66,10 @@ body {
   margin: 0 auto;
   padding: 0 15px 0 125px;
 
+  @include media('<widescreen') {
+      padding: 80px 30px 30px 30px;
+    }
+
 	// max-width: 480px;
 	//  width: 1440px;
 	// padding-left: 70px;

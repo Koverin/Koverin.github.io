@@ -426,6 +426,9 @@ body {
   max-width: 1320px;
   margin: 0 auto;
   padding: 0 15px 0 125px; }
+  @media (max-width: 1199px) {
+    .container {
+      padding: 80px 30px 30px 30px; } }
 
 /*----reset-atart*/
 h1,
@@ -703,6 +706,11 @@ input[type='submit'] {
   color: #FFFFFF;
   border-color: transparent;
   cursor: pointer; }
+
+.main-section__btn:hover,
+.main-section__btn:focus {
+  background-color: blueviolet;
+  box-shadow: 0px 4px 4px black; }
 
 .main-section__list {
   position: fixed;
