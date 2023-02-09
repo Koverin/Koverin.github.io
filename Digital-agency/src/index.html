@@ -7,8 +7,9 @@
     <title>Project Title</title>
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
-    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js" defer></script>
-    <script src="./js/main.js" defer></script>
+    <!-- <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js" defer></script>
+    <script src="./js/main.js" defer></script> -->
+    
 </head>
 
 <body>
@@ -59,7 +60,7 @@
                 </div>
             </section>
             <!-- About -->
-            <section class="about">
+            <!-- <section class="about">
                 <div class="container">
                     <h2 class="about__title">About service</h2>
                     <ul class="about__list">
@@ -101,9 +102,9 @@
                         </li>
                         </ul>
                 </div>
-            </section>
+            </section> -->
             <!-- Challenges -->
-            <section class="challeng">
+            <!-- <section class="challeng">
                 <div class="container">
                     <h2 class="challeng__title">Challenges</h2>
                     <ul class="challeng__list">
@@ -149,9 +150,9 @@
                         </li>
                     </ul>
                 </div>
-            </section>
+            </section> -->
             <!-- Project -->
-            <section class="project">
+            <!-- <section class="project">
                 <div class="container">
                     <div class="project__container">
                         <div class="project__text-box">
@@ -190,7 +191,7 @@
                                 </figure>
                         </div>
                     </div>
-            </section>
+            </section> -->
             <!-- Partners -->
             <section class="partners">
                 <div class="container">
@@ -267,7 +268,7 @@
                 </div>
                 </section>
                 <!-- Resent -->
-                <section class="resent">
+                <!-- <section class="resent">
                 <div class="resent__box container">
                     <div class="resent__inner-box">
                     <h2 class="resent__title">Resent posts</h2>
@@ -293,10 +294,20 @@
                         </li>
                     </ul>
                 </div>
-            </section>
+            </section> -->
             </main>
-            //= templates/footer.html
+            <!-- Mobile-menu -->
+            <div class="menu-container js-menu-container" id="mobile-menu">
+                <button class="menu-toggle js-close-menu">
+                    <img class="menu-img" src="./images/all_image/close-menu.png" alt="close">
+                </button>
             </div>
-            </body>
-
+            <!-- //= templates/footer.html -->
+        </div>
+        <!-- Mobile-menu-js -->
+        <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+            integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+            crossorigin="anonymous"></script>
+        <script defer src="./js/menu.js"></script>
+    </body>
 </html>

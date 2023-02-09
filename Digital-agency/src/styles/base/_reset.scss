@@ -64,11 +64,11 @@ body {
 .container {
   max-width: 1320px;
   margin: 0 auto;
-  padding: 0 15px 0 125px;
+  padding: 0 70px 0 180px;
 
-  @include media('<widescreen') {
-      padding: 80px 30px 30px 30px;
-    }
+  // @include media('<widescreen') {
+  //     padding: 80px 30px 30px 30px;
+  //   }
 
 	// max-width: 480px;
 	//  width: 1440px;

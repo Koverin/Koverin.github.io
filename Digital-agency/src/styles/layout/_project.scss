@@ -52,6 +52,12 @@
     background-color: #3C467A;
 }
 
+.project__btn:hover,
+.project__btn:focus {
+    background-color: #6473bd;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 15%);
+}
+
 .project__container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));

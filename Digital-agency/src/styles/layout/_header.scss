@@ -11,6 +11,10 @@
 
     &__menu{
         display: flex;
+
+        @include media ('<desktop') {
+            display: none;
+        }
     }
 
     &__list{
@@ -46,3 +50,22 @@
         fill: black;
     }
 }
+
+// Mobile menu btn
+
+.menu-btn {
+    display: none;
+
+    @include media ('<desktop') {
+        display: flex;
+        margin-left: auto;
+        background-color: transparent;
+        border: none;
+
+        padding: 10px 10px 10px 10px;
+
+        cursor: pointer;
+    }
+   
+}
+
